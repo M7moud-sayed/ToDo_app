@@ -9,6 +9,13 @@ class ApplicationThemeManager {
         padding: EdgeInsets.zero,
         color: Colors.white,
       ),
+      appBarTheme: AppBarTheme(
+        toolbarHeight: 100,
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        centerTitle: true,
+        iconTheme: IconThemeData(color: Colors.white),
+        ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: primaryColor,
         shape: RoundedRectangleBorder(
@@ -69,6 +76,13 @@ class ApplicationThemeManager {
       bottomAppBarTheme: const BottomAppBarTheme(
         padding: EdgeInsets.zero,
         color: Color(0xFF141922),
+      ),
+      appBarTheme: AppBarTheme(
+        toolbarHeight: 100,
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        centerTitle: true,
+        iconTheme: IconThemeData(color: Color(0xFF060E1E)),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: primaryColor,

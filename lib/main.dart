@@ -1,11 +1,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:to_do_app/config/constants/application_theme_manager.dart';
 import 'package:to_do_app/features/layout_view.dart';
 import 'package:to_do_app/features/settings_provider.dart';
 import 'package:to_do_app/features/splash/pages/splash_view.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:to_do_app/register/pages/register_view.dart';
+
+import 'core/config/application_theme_manager.dart';
+import 'features/login/pages/login_view.dart';
 
 
 void main() {
@@ -33,6 +36,8 @@ class MyApp extends StatelessWidget {
       routes: {
         SplashView.routeName : (context) => const SplashView(),
         LayoutView.routeName : (context) => const LayoutView(),
+        LoginView.routeName : (context) => const LoginView(),
+        RegisterView.routeName : (context) =>  RegisterView(),
       },
     );
   }
